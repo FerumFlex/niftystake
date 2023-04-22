@@ -1,0 +1,82 @@
+{
+  "useTemplate": true,
+  "template": "cw20/base",
+  "name": "erc20",
+  "developer": {
+    "archwayd": {
+      "docker": false
+    },
+    "deployments": [
+      {
+        "project": "erc20",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 621,
+        "txhash": "67009CA2679EBD7A10787AA30E345CE3F08FDA49966A1C2AD2B92A541E03D55A",
+        "address": "archway1j2tvhkwh0m22ud4j8eu5r447xm4yuy33v90uhk4pzh3mr88qdlgq8tyhfw",
+        "admin": "archway13lv65pvdv00t570tvgdwwe8ev6jhuvpf3myq5m"
+      },
+      {
+        "project": "erc20",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 621,
+        "txhash": "06D24FE8BBAEE833DD3D7F91039901231BBB7627B81B641C7815FEE1B4016E7E"
+      },
+      {
+        "project": "erc20",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 618,
+        "txhash": "F5167077C69FC032CCDE5FC5104E9C8BC506A8F4CED40C695D887D553585C332"
+      },
+      {
+        "project": "erc20",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 599,
+        "txhash": "650B1337C9D2839034F7E1FB693A5B7C1D4E27CA55DBFD316887994656EE4F65"
+      },
+      {
+        "project": "erc20",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 598,
+        "txhash": "80251AA609EB5A65E25E153463B442597E1A89121034D5BD473C2C5E63DF14EC"
+      }
+    ],
+    "scripts": {
+      "test": "cargo unit-test",
+      "build": "cargo build",
+      "optimize": "cargo run-script optimize",
+      "wasm": "cargo wasm",
+      "query": "archwayd query wasm",
+      "tx": "archwayd tx wasm execute"
+    }
+  },
+  "network": {
+    "name": "constantine",
+    "chainId": "constantine-2",
+    "type": "testnet",
+    "fees": {
+      "feeDenom": "uconst"
+    },
+    "gas": {
+      "prices": "0.002uconst",
+      "mode": "auto",
+      "adjustment": "1.5"
+    },
+    "wasm": {
+      "bech32Hrp": "archway",
+      "archwayd": "0.1.0",
+      "configDir": ".archway",
+      "binary": "archwayd"
+    },
+    "urls": {
+      "rpc": {
+        "url": "https://rpc.constantine-2.archway.tech",
+        "port": 443
+      }
+    }
+  }
+}

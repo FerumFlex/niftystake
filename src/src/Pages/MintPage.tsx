@@ -1,5 +1,5 @@
 export function MintPage() {
   return (
-    <h2>Home page</h2>
+    <h2>WOrking on this</h2>
   )
 }

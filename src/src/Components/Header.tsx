@@ -1,9 +1,10 @@
-import { createStyles, Menu, Center, Header, Container, Group, Button, Burger, rem, Anchor } from '@mantine/core';
+import { createStyles, Menu, Center, Header, Container, Group, Burger, rem, Anchor } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { IconChevronDown } from '@tabler/icons-react';
 import { Logo } from './Logo';
 import { ThemeToggle } from './ThemeToggle';
 import { Link } from 'react-router-dom';
+import { UserPanel } from './UserPanel';
 
 const HEADER_HEIGHT = rem(60);
 
@@ -103,9 +104,7 @@ export function HeaderAction({ links }: HeaderActionProps) {
         </Group>
         <Group spacing={5}>
           <ThemeToggle />
-          <Button radius="xl" h={30}>
-            Get early access
-          </Button>
+          <UserPanel />
         </Group>
       </Container>
     </Header>
