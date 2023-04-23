@@ -1,0 +1,189 @@
+{
+  "useTemplate": true,
+  "template": "increment",
+  "name": "stake",
+  "developer": {
+    "archwayd": {
+      "docker": false
+    },
+    "deployments": [
+      {
+        "project": "stake",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 691,
+        "txhash": "73E7DD443F94E830E8F32429A675E89E542023F5D9DA4ADD15E5ED9A2CAC41A2",
+        "address": "archway1h4h08q8j7g4punc2zrvvmfuqe05mn85jss2pfy09yqcwa64rgw4q4r3a88",
+        "admin": "archway13lv65pvdv00t570tvgdwwe8ev6jhuvpf3myq5m"
+      },
+      {
+        "project": "stake",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 691,
+        "txhash": "123E49B20705C5C46E0C6CFEEC1B9B37F3B2944D78E5D62DBC31B65CE6813381"
+      },
+      {
+        "project": "stake",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 687,
+        "txhash": "0128FB5E5FC50D4884A39A8CDB7BBA3BA39198B09B8A5CA69573240815AC5CA0",
+        "address": "archway1enktguexcdnnnld6rcv2lztxk4d62xkw4f3332xlezmu3cyguc9qtuvvmx",
+        "admin": "archway13lv65pvdv00t570tvgdwwe8ev6jhuvpf3myq5m"
+      },
+      {
+        "project": "stake",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 687,
+        "txhash": "E84EAAA6D5348810389A51B5FDB17B855335FA0B8EC8A66AF0E862022AF42821"
+      },
+      {
+        "project": "stake",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 686,
+        "txhash": "5A4650614ABA708E60405D2DF837C87A809C2D2565D9DBCF05A5CE1367A48E13",
+        "address": "archway1nu96708yg8yud2xdy8ry2nkuazw45dvsnf85fvkdnysukhqxtlds4h8pd6",
+        "admin": "archway13lv65pvdv00t570tvgdwwe8ev6jhuvpf3myq5m"
+      },
+      {
+        "project": "stake",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 686,
+        "txhash": "A151E8263FEC9B2AAE64837D6FB7906FD29A91409521D22C21E710F2E29D8F2B"
+      },
+      {
+        "project": "stake",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 677,
+        "txhash": "CCD2D503E883280B13A985E69B1E98D7841006DC6242B05F53411A57E0BD1040",
+        "address": "archway19e8tv7d33s6xyu4gmjjucsq8paan02welugwm0x3vslsj8spx3zsd6velt",
+        "admin": "archway13lv65pvdv00t570tvgdwwe8ev6jhuvpf3myq5m"
+      },
+      {
+        "project": "stake",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 677,
+        "txhash": "C13D0F47E4CB38A921B187642DF083DA60295688AC971A0ADCA6380A6B87EB8B"
+      },
+      {
+        "project": "stake",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 674,
+        "txhash": "7E953B3A8A33B3094E79ED28437B54B224FA8B9770D7A373F6788C2C227CBA50",
+        "address": "archway1y55xmv7vxlrtjdf3wmea5h8s7pyt3ua8rdgqy4grl77r2hdpmzzqxk7krz",
+        "admin": "archway13lv65pvdv00t570tvgdwwe8ev6jhuvpf3myq5m"
+      },
+      {
+        "project": "stake",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 674,
+        "txhash": "48B54ED8107FB900A08ED1E0573A090097CCDDFD05C5DEF63A8D78B2EB4A6DDA"
+      },
+      {
+        "project": "stake",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 672,
+        "txhash": "523EA382626142C310FAE1C76D6202524DE1C3B1087F64EC879239C3CB2F24CF",
+        "address": "archway1a5dc97h0grnkr9d5q9gfu5tcwsmvm7qm6dc3zcr7cgsntd2lqqxqxzrxfh",
+        "admin": "archway13lv65pvdv00t570tvgdwwe8ev6jhuvpf3myq5m"
+      },
+      {
+        "project": "stake",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 672,
+        "txhash": "75E43934DCA85A8695AA52668B3DC5124BA8AD45A0A9DDAE55CAEF66E366A764"
+      },
+      {
+        "project": "stake",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 669,
+        "txhash": "7B4482355CD320B248FB8A87AB7D3F6A3B619695A13AC32CADE1D6EF6FD372AC",
+        "address": "archway1ttzl452lvqa95dwmxgkwqhxltzxzqf7sne9292r6wmagryen043su6ctps",
+        "admin": "archway13lv65pvdv00t570tvgdwwe8ev6jhuvpf3myq5m"
+      },
+      {
+        "project": "stake",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 669,
+        "txhash": "A2066BCE76FB144D29135EFC29177B731AFC9D73923C8C23275F6CECBF45A494"
+      },
+      {
+        "project": "stake",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 667,
+        "txhash": "E9A098FE3191802FDE63956C34FE5E7E4C1D895D3CB4EA6C764D8DEEDD62EEDE",
+        "address": "archway1pfz6a9emmra2dffe09uautcctulnfdlssfyxv7pzmm8c7c76rdcs3dav2p",
+        "admin": "archway13lv65pvdv00t570tvgdwwe8ev6jhuvpf3myq5m"
+      },
+      {
+        "project": "stake",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 667,
+        "txhash": "E581EE41928EC93E7CC9E0CBA523681F2AA94C477F69BA060CC916D6FCC14CF4"
+      },
+      {
+        "project": "stake",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 666,
+        "txhash": "E70FA917792690D84450672000951A82490C4C4324AC74B2DB0B77F13B5556B3",
+        "address": "archway14dcn97zqlzfrj3z662x0efhfekngw3j09dccku4y8lw3z82dmg6srsf54u",
+        "admin": "archway13lv65pvdv00t570tvgdwwe8ev6jhuvpf3myq5m"
+      },
+      {
+        "project": "stake",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 666,
+        "txhash": "2EB29AD4AC6E6B1923F71E0F364070FF19FE35D95F2F4A355CB1BE71EB74C62A"
+      }
+    ],
+    "scripts": {
+      "test": "cargo unit-test",
+      "build": "cargo build",
+      "optimize": "cargo run-script optimize",
+      "wasm": "cargo wasm",
+      "query": "archwayd query wasm",
+      "tx": "archwayd tx wasm execute"
+    }
+  },
+  "network": {
+    "name": "constantine",
+    "chainId": "constantine-2",
+    "type": "testnet",
+    "fees": {
+      "feeDenom": "uconst"
+    },
+    "gas": {
+      "prices": "0.002uconst",
+      "mode": "auto",
+      "adjustment": "1.5"
+    },
+    "wasm": {
+      "bech32Hrp": "archway",
+      "archwayd": "0.1.0",
+      "configDir": ".archway",
+      "binary": "archwayd"
+    },
+    "urls": {
+      "rpc": {
+        "url": "https://rpc.constantine-2.archway.tech",
+        "port": 443
+      }
+    }
+  }
+}

@@ -31,12 +31,7 @@ export const UserPanel = observer(() => {
           let accounts = await offlineSigner.getAccounts();
           let userAddress = accounts[0].address;
           wallet.setAddress(userAddress, cwClient);
-          let res = await cwClient.queryContractSmart("archway1j2tvhkwh0m22ud4j8eu5r447xm4yuy33v90uhk4pzh3mr88qdlgq8tyhfw", {
-            "balance": {
-              address: "archway13lv65pvdv00t570tvgdwwe8ev6jhuvpf3myq5m"
-            }
-          });
-          console.log(res);
+          await wallet.loadNfts();
         } else {
           notifications.show({
             'message': 'Error access experimental features, please update Keplr',

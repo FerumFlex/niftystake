@@ -4,3 +4,29 @@ NiFTyStake - project to mint and stake nft on blockchain Archway
 
 # Logo
 Icon from there https://www.iconfinder.com/icons/9499826/wallet_art_crypto_token_icon
+
+
+# Deploy smartcontracts
+
+1. Deploy stake
+```
+cd stake
+make deploy
+```
+
+2. Deploy nft
+Copy stake contract address and modify it in nft/Makefile
+
+```
+cd nft
+make deploy
+```
+
+3. Set nft address for stake
+
+Copy nft contract address and modify it in stake/Makefile
+
+```
+cd stake
+make set_address
+```

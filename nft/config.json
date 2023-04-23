@@ -6,7 +6,120 @@
     "archwayd": {
       "docker": false
     },
-    "deployments": [],
+    "deployments": [
+      {
+        "project": "nft",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 692,
+        "txhash": "8C72C7440CB6290CA5E852941B8729A0F9AC78B91C028CA56DBB62DDF6282ED6",
+        "address": "archway1usnr9cv4x9q4c5su9nz5kmy9qfs8yxjllv0llwf6tjzzx90rpd9sf0xcf7",
+        "admin": "archway13lv65pvdv00t570tvgdwwe8ev6jhuvpf3myq5m"
+      },
+      {
+        "project": "nft",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 692,
+        "txhash": "65A18C22F9103CF58B73839EC58EC1A2F22D378E6DB22679558B4FAA39A6E240"
+      },
+      {
+        "project": "nft",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 688,
+        "txhash": "AD7688BFBE2684D1C0F9ECA8A193B3F79C7D7B1782B3DD5364BBD06B79A43431",
+        "address": "archway1k3sj0jtv9vgjcthcuxd84q730a78rvg4zc3skvw72emsj2axttksk254nw",
+        "admin": "archway13lv65pvdv00t570tvgdwwe8ev6jhuvpf3myq5m"
+      },
+      {
+        "project": "nft",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 688,
+        "txhash": "60EC73AE92A4624D0F16FE905BB2D093A08D45993B5F96EC32CF4A6E7EFD9FC9"
+      },
+      {
+        "project": "nft",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 678,
+        "txhash": "46A44A08528CEEB475DEF05EF1E11DAAF46592AD0F6031E75B78B192F6755BE8",
+        "address": "archway1f0kh3q25tq2cewu7qzjsxkktn7pjlgjq7jd9dgg7tcd3afwgq22q05espc",
+        "admin": "archway13lv65pvdv00t570tvgdwwe8ev6jhuvpf3myq5m"
+      },
+      {
+        "project": "nft",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 678,
+        "txhash": "BE17B2F2588ABE1987249E5014F0FBAF2CB65C1833B4ECD80BE62CA278F8A4B4"
+      },
+      {
+        "project": "nft",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 675,
+        "txhash": "0BD548C7A893686AEF23EEA9CCC3824E72126F8D6278C8FA6D81FF8A74E62019",
+        "address": "archway16nd8ekmgsaa7tr99jm0d6ggw6a7ny2f2md3mc3m8jcds08cxvmeqc07unw",
+        "admin": "archway13lv65pvdv00t570tvgdwwe8ev6jhuvpf3myq5m"
+      },
+      {
+        "project": "nft",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 675,
+        "txhash": "12CA3CB25E0A597743ECA038CC4F8694963136FA8458D46C93D33F52BB61B74E"
+      },
+      {
+        "project": "nft",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 673,
+        "txhash": "27CAAA29921CA953BBA73009DBD54C599221E9A4660DF9B673F8EF15DCB207C1",
+        "address": "archway1e794sxavvsztgrpn94u8yeceg2p4umlgxtq0fggu8zzxsz52ny7sv2hqvx",
+        "admin": "archway13lv65pvdv00t570tvgdwwe8ev6jhuvpf3myq5m"
+      },
+      {
+        "project": "nft",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 673,
+        "txhash": "6A341E8B6FA1AB43DBD44BB82D13C3FF91B70CDCA2C08D319A8089C187CC0C90"
+      },
+      {
+        "project": "nft",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 670,
+        "txhash": "B50598C136FBE92A79997C364FCED2CAAF8D4458FD17190EE0305C8576339F6D",
+        "address": "archway1wgux86y6n7r6mrrppgdn3g3jhhaz4w3l0qf3pa6t20zmzelzkfaqcxlfyy",
+        "admin": "archway13lv65pvdv00t570tvgdwwe8ev6jhuvpf3myq5m"
+      },
+      {
+        "project": "nft",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 670,
+        "txhash": "79C3D7D5E90D9C9279C74FE9C774AD74E65FC64913C548871864B8FC8A3032AE"
+      },
+      {
+        "project": "nft",
+        "type": "instantiate",
+        "chainId": "constantine-2",
+        "codeId": 668,
+        "txhash": "BCA06CC819C975D5F78967A62F60DB12281D29D5C48C103C16BB08CD0E11645E",
+        "address": "archway1ayafx8ffq0an93lr8rfkuenhs62lgdngqxkn957nvjhuhya9pcuq3pu88u",
+        "admin": "archway13lv65pvdv00t570tvgdwwe8ev6jhuvpf3myq5m"
+      },
+      {
+        "project": "nft",
+        "type": "store",
+        "chainId": "constantine-2",
+        "codeId": 668,
+        "txhash": "2C0E2E2472590E55E209BA12D185D9EA17AA0DFF8AEBAF59C9D461B4A0556FDE"
+      }
+    ],
     "scripts": {
       "test": "cargo unit-test",
       "build": "cargo build",
